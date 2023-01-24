@@ -295,6 +295,7 @@
             {
                 "name": "Arcade Games",
                 "visibility_rules": ["ashuffle2"],
+                "clear_as_group":false,
                 "sections":[
                     {
                         "name": "JOtpK: Boot Upgrades",
@@ -314,6 +315,8 @@
                     },
                     {
                         "name": "Junimo Kart Levels",
+                        "access_rules":
+                            ["$has_skull_key"],
                         "item_count":5
                     }
                 ],

@@ -726,6 +726,35 @@
                         "y": 457
                     }
                 ]
+            },
+            {
+                "name": "Help Wanted!",
+                "clear_as_group": false,
+                "sections":[
+                    {
+                        "name": "Gathering",
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Slay Monsters",
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Fishing",
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Item Delivery",
+                        "item_count": 12
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 528,
+                        "y": 255
+                    }
+                ]
             }
         ]
     }

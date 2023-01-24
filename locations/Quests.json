@@ -199,6 +199,7 @@
             },
             {
                 "name": "Mayor's 'Shorts'",
+                "access_rules":["$summer"],
                 "sections":[
                     {
                         "name": "Deliver it!",
@@ -215,6 +216,7 @@
             },
             {
                 "name": "Blackberry Basket",
+                "access_rules":["$fall"],
                 "sections":[
                     {
                         "name": "Deliver it!",
@@ -247,6 +249,7 @@
             },
             {
                 "name": "Pam is Thirsty",
+                "access_rules":["$summer"],
                 "sections":[
                     {
                         "name": "Deliver it!",
@@ -263,6 +266,7 @@
             },
             {
                 "name": "A Dark Reagent",
+                "access_rules":["$winter"],
                 "sections":[
                     {
                         "name": "Deliver it!",
@@ -279,6 +283,7 @@
             },
             {
                 "name": "Cow's Delight",
+                "access_rules":["$fall"],
                 "sections":[
                     {
                         "name": "Deliver it!",
@@ -312,6 +317,7 @@
             },
             {
                 "name": "Crop Research",
+                "access_rules":["$summer"],
                 "sections":[
                     {
                         "name": "Deliver it!",
@@ -328,6 +334,7 @@
             },
             {
                 "name": "Knee Therapy",
+                "access_rules":["$summer"],
                 "sections":[
                     {
                         "name": "Deliver it!",
@@ -346,7 +353,7 @@
                 "name": "Robin's Request",
                 "sections":[
                   {
-                    "access_rules": [ "$can_chop_stumps" ],
+                    "access_rules": [ "$can_chop_stumps","$winter" ],
                     "item_count": 1,
                     "name": "Deliver it!"
                   }
@@ -395,6 +402,7 @@
             },
             {
                 "name": "Carving Pumpkins",
+                "access_rules":["$fall"],
                 "sections":[
                     {
                         "name": "Deliver it!",
@@ -411,6 +419,7 @@
             },
             {
                 "name": "A Winter Mystery",
+                "access_rules":["$winter"],
                 "sections":[
                     {
                         "name": "Meet Krobus!",
@@ -496,7 +505,7 @@
                 "name": "A Soldier's Star",
                 "sections":[
                   {
-                    "access_rules": [ "$can_access_desert" ],
+                    "access_rules": [ "$can_access_desert","$summer" ],
                     "item_count": 1,
                     "name": "Deliver it!"
                   }

@@ -17,19 +17,19 @@
                         "name": "Summer Foraging Bundle",
                         "item_count": 1,
                         "access_rules":
-                            []
+                            ["$summer"]
                     },
                     {
                         "name": "Fall Foraging Bundle",
                         "item_count": 1,
                         "access_rules":
-                            []
+                            ["$fall"]
                     },
                     {
                         "name": "Winter Foraging Bundle",
                         "item_count": 1,
                         "access_rules":
-                            []
+                            ["$winter"]
                     },
                     {
                         "name": "Construction Bundle",
@@ -63,19 +63,19 @@
                         "name": "Summer Crops Bundle",
                         "item_count": 1,
                         "access_rules": 
-                            []
+                            ["$summer"]
                     },
                     {
                         "name": "Fall Crops Bundle",
                         "item_count": 1,
                         "access_rules": 
-                            []
+                            ["$fall"]
                     },                   
                     {
                         "name": "Quality Crops Bundle",
                         "item_count": 1,
                         "access_rules": 
-                            []
+                            ["$summer"]
                     },
                     {
                         "name": "Animal Bundle",
@@ -87,7 +87,7 @@
                         "name": "Artisan Bundle",
                         "item_count": 1,
                         "access_rules": 
-                            []
+                            ["$artisanbundle"]
                     }
                 ],
                 "map_locations":[
@@ -105,25 +105,25 @@
                         "name": "River Fish Bundle",
                         "item_count": 1,
                         "access_rules": 
-                            ["$can_fish"]
+                            ["$can_fish,$fall"]
                     },
                     {
                         "name": "Lake Fish Bundle",
                         "item_count": 1,
                         "access_rules": 
-                            ["$can_fish"]
+                            ["$can_fish,$summer"]
                     },
                     {
                         "name": "Ocean Fish Bundle",
                         "item_count": 1,
                         "access_rules": 
-                            ["$can_fish"]
+                            ["$can_fish,$summer"]
                     },
                     {
                         "name": "Night Fishing Bundle",
                         "item_count": 1,
                         "access_rules": 
-                            ["$can_fish"]
+                            ["$can_fish,$fall"]
                     },
                     {
                         "name": "Crab Pot Bundle",
@@ -135,7 +135,7 @@
                         "name": "Specialty Fish Bundle",
                         "item_count": 1,
                         "access_rules":
-                            ["$can_fish","$can_chop_logs","$can_access_desert"]
+                            ["$can_fish,$can_chop_logs,$can_access_desert,$summer"]
                     }
                 ],
                 "map_locations":[
@@ -197,7 +197,9 @@
                     },
                     {
                         "name": "Fodder Bundle",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules":
+                            ["$fall"]
                     },
                     {
                         "name": "Enchanter's Bundle",

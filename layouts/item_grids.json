@@ -8,10 +8,10 @@
                 "h_alignment": "left",
                 "item_margin": "3,3",
                 "rows": [
-                    ["Pick","Axe","rod","pack","","farming",""],
-                    ["Can","scythe","trashcan","Hoe","","mining",""],
-                    ["bridge","bus","desert","island","","foraging",""],
-                    ["coop","barn","house","","","fishing",""],
+                    ["Pick","Axe","rod","pack","","farming","spring"],
+                    ["Can","scythe","trashcan","Hoe","","mining","summer"],
+                    ["bridge","bus","desert","island","","foraging","fall"],
+                    ["coop","barn","house","","","fishing","winter"],
                     ["skullkey","sewerskey","dwarf","notes","","combat","elevator"]
                 ]
             }

@@ -8,6 +8,18 @@ function has(item, amount)
     end
 end
 
+function summer()
+    return has("summer")
+end
+
+function fall()
+    return has("fall")
+end
+
+function winter()
+    return has("winter")
+end
+
 function can_mine_copper()
     return (has("CopperPick") or has("e5"))
 end
@@ -130,20 +142,51 @@ function animalbundle()
     return (amt >= need)
 end
 
+function artisanbundle()
+    local amt = 2
+    local need = 6
+    if (has_deluxe_barn() and has("farming",8)) then
+        amt = amt + 1
+    end
+    if ((has_deluxe_barn() or has_deluxe_coop()) and has("farming",7)) then
+        amt = amt + 1
+    end
+    if (has_big_barn() and has("farming",6)) then
+        amt = amt + 1
+    end
+    if (has_barn() and has("farming",6)) then
+        amt = amt + 1
+    end
+    if has("farming",3) then
+        amt = amt + 1
+    end
+    if has("farming",4) then
+        amt = amt + 1
+    end
+    if summer() then
+        amt = amt + 2
+    end
+    if fall() then
+        amt = amt + 2
+    end
+    return (amt >= need)
+end
+
+
 function chefbundle()
-    return (can_chop_logs() and has_deluxe_barn() and can_cook())
+    return (can_chop_logs() and has_deluxe_barn() and can_cook() and summer())
 end
 
 function dyebundle()
-    return (has("e40") and has_big_coop() and (has("e80") or can_chop_logs()))
+    return (has("e40") and has_big_coop() and (has("e80") or can_chop_logs()) and summer())
 end
 
 function fieldresearchbundle()
-    return (has("e40") and can_fish())
+    return (has("e40") and can_fish() and winter())
 end
 
 function enchantbundle()
-    return (has_deluxe_coop() and has("farming",8) and has("foraging",3))
+    return (has_deluxe_coop() and has("farming",8) and has("foraging",3) and fall())
 end
 
 function farming1()

@@ -1,0 +1,732 @@
+[
+    {
+        "name": "Quests",
+        "chest_unopened_img": "images/QuestNew.png",
+        "chest_opened_img": "images/QuestDone.png",
+        "children":[
+            {
+                "name": "Introductions",
+                "sections":[
+                    {
+                        "name": "Talk to the NPCs!",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 519,
+                        "y": 278
+                    }
+                ]
+            },
+            {
+                "name": "How to Win Friends",
+                "sections":[
+                    {
+                        "name": "Give anyone a gift",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 535,
+                        "y": 278
+                    }
+                ]
+            },
+            {
+                "name": "Getting Started",
+                "sections": [
+                    {
+                        "name": "Cultivate and Harvest a Parsnip",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 348,
+                        "y": 250
+                    }
+                ]
+            },
+            {
+                "name": "Raising Animals",
+                "sections":[
+                    {
+                        "name": "Build a Coop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 568,
+                        "y": 139
+                    }
+                ]
+            },
+            {
+                "name": "Archaeology",
+                "sections":[
+                    {
+                        "name": "Donate an item to the Museum",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 695,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Advancement",
+                "sections":[
+                  {
+                    "access_rules": [ "$farming1" ],
+                    "item_count": 1,
+                    "name": "Reach Farming 1 and build a Scarecrow"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x":363,
+                        "y":250
+                    }
+                ]
+            },
+            {
+                "name": "Meet the Wizard",
+                "sections":[
+                    {
+                        "name": "Enter the Wizard's Tower",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 172,
+                        "y": 303
+                    }
+                ]
+            },
+            {
+                "name": "Forging Ahead",
+                "sections":[
+                    {
+                        "name": "Craft a Furnace",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x":348,
+                        "y":263
+                    }
+                ]
+            },
+            {
+                "name": "Smelting",
+                "sections":[
+                    {
+                        "name": "Smelt an Copper Bar",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 363,
+                        "y": 263
+                    }
+                ]
+            },
+            {
+                "name": "Initiation",
+                "sections":[
+                    {
+                        "name": "Slay 10 green slimes",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 698,
+                        "y": 105
+                    }
+                ]
+            },
+            {
+                "name": "Robin's Lost Axe",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 30,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Jodi's Request",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 30,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "name": "Mayor's 'Shorts'",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 30,
+                        "y": 219
+                    }
+                ]
+            },
+            {
+                "name": "Blackberry Basket",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 30,
+                        "y": 519
+                    }
+                ]
+            },
+            {
+                "name": "Marnie's Request",
+                "sections":[
+                    {
+                        "name": "Bring Marnie a Cave Carrot",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 338,
+                        "y": 317
+                    }
+                ]
+            },
+            {
+                "name": "Pam is Thirsty",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 30,
+                        "y": 279
+                    }
+                ]
+            },
+            {
+                "name": "A Dark Reagent",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 433,
+                        "y": 221
+                    }
+                ]
+            },
+            {
+                "name": "Cow's Delight",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 30,
+                        "y": 460
+                    }
+                ]
+            },
+            {
+                "name": "The Skull Key",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_access_desert,$has_skull_key" ],
+                    "item_count": 1,
+                    "name": "Unlock the Skull Cavern"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 35,
+                        "y": 26
+                    }
+                ]
+            },
+            {
+                "name": "Crop Research",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 30,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Knee Therapy",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 30,
+                        "y": 401
+                    }
+                ]
+            },
+            {
+                "name": "Robin's Request",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_chop_stumps" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 433,
+                        "y": 341
+                    }
+                ]
+            },
+            {
+                "name": "Qi's Challenge",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_access_desert,$has_skull_key" ],
+                    "item_count": 1,
+                    "name": "Reach level 25 of the Skull Cavern"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 50,
+                        "y": 26
+                    }
+                ]
+            },
+            {
+                "name": "The Mysterious Qi",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_access_desert" ],
+                    "item_count": 1,
+                    "name": "Follow Qi's Instructions"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 362,
+                        "y": 219
+                    }
+                ]
+            },
+            {
+                "name": "Carving Pumpkins",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 30,
+                        "y": 579
+                    }
+                ]
+            },
+            {
+                "name": "A Winter Mystery",
+                "sections":[
+                    {
+                        "name": "Meet Krobus!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 485,
+                        "y": 165
+                    }
+                ]
+            },
+            {
+                "name": "Strange Note",
+                "sections":[
+                  {
+                    "access_rules": [ "$secret_notes,$can_chop_logs" ],
+                    "item_count": 1,
+                    "name": "Bring Maple Syrup to the Secret Woods"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 102,
+                        "y": 271
+                    }
+                ]
+            },
+            {
+                "name": "Cryptic Note",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_access_desert,$has_skull_key,$secret_notes" ],
+                    "item_count": 1,
+                    "name": "Reach Level 100 of the Skull Cavern"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 65,
+                        "y": 26
+                    }
+                ]
+            },
+            {
+                "name": "Fresh Fruit",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 432,
+                        "y": 462
+                    }
+                ]
+            },
+            {
+                "name": "Aquatic Research",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_fish" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 884,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "A Soldier's Star",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_access_desert" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 883,
+                        "y": 159
+                    }
+                ]
+            },
+            {
+                "name": "Mayor's Need",
+                "sections":[
+                  {
+                    "access_rules": [ "$has_deluxe_barn" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 884,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "Wanted: Lobster",
+                "sections":[
+                  {
+                    "access_rules": [ "$has_crab_pots" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 883,
+                        "y": 277
+                    }
+                ]
+            },
+            {
+                "name": "Pam Needs Juice",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 883,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Fish Casserole",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_fish" ],
+                    "item_count": 1,
+                    "name": "Bring a Largemouth Bass to dinner"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 482,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Catch a Squid",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_fish" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 432,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Fish Stew",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_fish" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 433,
+                        "y": 401
+                    }
+                ]
+            },
+            {
+                "name": "Pierre's Notice",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_cook" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 432,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "name": "Clint's Attempt",
+                "sections":[
+                    {
+                      "item_count": 1,
+                      "name": "Deliver it!"
+                    }
+                  ],
+                  "map_locations":[
+                      {
+                          "map":"Quests",
+                          "x": 431,
+                          "y": 160
+                      }
+                  ]
+            },
+            {
+                "name": "A Favor for Clint",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 433,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Staff of Power",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_mine_iridium" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 883,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Granny's Gift",
+                "sections":[
+                    {
+                        "name": "Deliver it!",
+                        "item_count":1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 433,
+                        "y": 522
+                    }
+                ]
+            },
+            {
+                "name": "Exotic Spirits",
+                "sections":[
+                    {
+                      "name": "Deliver it!",
+                      "access_rules":
+                        [ "$can_access_desert","$can_access_island"], 
+                        "item_count": 1
+                     }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 883,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Catch a Lingcod",
+                "sections":[
+                  {
+                    "access_rules": [ "$can_fish" ],
+                    "item_count": 1,
+                    "name": "Deliver it!"
+                  }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Quests",
+                        "x": 883,
+                        "y": 457
+                    }
+                ]
+            }
+        ]
+    }
+]

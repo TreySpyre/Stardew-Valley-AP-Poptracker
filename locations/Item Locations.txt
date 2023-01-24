@@ -1,0 +1,78 @@
+CC:
+Crafts room (Talk to Wizard)
+	Spring Foraging Bundle
+	Summer Foraging Bundle
+	Fall Foraging Bundle
+	Winter Foraging Bundle
+	Construction Bundle
+	Exotic Foraging Bundle
+	Complete Crafts Room
+
+Pantry (Complete 1 Bundle)
+	Spring Crops Bundle
+	Summer Crops Bundle
+	Fall Crops Bundle
+	Quality Crops Bundle
+	Animal Bundle
+	Artisan Bundle
+	Complete Crafts Room
+
+Fish Tank (Complete 1 Bundle)
+	River Fish Bundle
+	Lake Fish Bundle
+	Ocean Fish Bundle
+	Night Fishing Bundle
+	Crab Pot Bundle
+	Specialty Fish Bundle
+	Complete Fish Tank
+
+Boiler Room (Complete 2 Bundles)
+	Blacksmith's Bundle
+	Geologist's Bundle
+	Adventurer's Bundle
+	Complete Boiler Room
+
+Bulletin Board (Complete 3 Bundles)
+	Chef's Bundle
+	Dye Bundle
+	Field Research Bundle
+	Fodder Bundle
+	Enchanter's Bundle
+	Complete Bulletin Board
+	
+Vault (Complete 4 Bundles)
+	2.5K
+	5K
+	10K
+	25K
+	Complete Vault
+
+Clint:
+Copper (5)
+Steel (5)
+Gold (5)
+Iridium (5)
+
+Willy
+	Bamboo Pole cutscene
+	Purchase Training Rod
+	Purchase Fiberglass Rod
+	Purchase Iridium Rod
+
+Gold Scythe (Bridge Repair)
+
+Backpack Upgrade 1
+Backpack Upgrade 2
+
+Mines
+	Floor 10
+	Floor 20
+	Floor 40
+	Floor 50
+	Floor 60
+	Floor 70
+	Floor 80
+	Floor 90
+	Floor 100
+	Floor 110
+	Floor 120

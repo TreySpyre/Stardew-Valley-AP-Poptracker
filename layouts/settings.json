@@ -1,0 +1,18 @@
+{
+    "settings": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content":[
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "3,3",
+                "rows":
+                [
+                    ["goal","eshuffle","sshuffle","ashuffle"],
+                    ["","bshuffle","tshuffle","pshuffle"]
+                ]
+            }
+        ]
+    }
+}

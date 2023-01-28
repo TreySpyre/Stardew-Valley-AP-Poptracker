@@ -1,6 +1,6 @@
 ITEM_MAPPING = 
 {
-    [717017] = {"bridge","progressive"},
+    [717017] = {"bridge","toggle"},
     [717021] = {"bus","toggle"},
     [717024] = {"pack","progressive"},
     [717064] = {"skullkey","toggle"}, 
@@ -9,7 +9,7 @@ ITEM_MAPPING =
     [717067] = {"Axe","progressive"}, 
     [717068] = {"Can", "progressive"}, 
     [717069] = {"trashcan","progressive"},
-    [717070] = {"Rod","progressive"},
+    [717070] = {"rod","progressive"},
     [717071] = {"scythe","progressive"},
     [717072] = {"elevator","progressive"}, 
     [717073] = {"farming","consumable"}, 

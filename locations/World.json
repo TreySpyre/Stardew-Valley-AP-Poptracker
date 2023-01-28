@@ -298,19 +298,19 @@
                 "clear_as_group":false,
                 "sections":[
                     {
-                        "name": "JOtpK: Boot Upgrades",
+                        "name": "JotPK: Boot Upgrades",
                         "item_count": 2
                     },
                     {
-                        "name": "JOtpK: Gun Upgrades",
+                        "name": "JotPK: Gun Upgrades",
                         "item_count": 4
                     },
                     {
-                        "name": "JOtpK: Ammo Upgrades",
+                        "name": "JotPK: Ammo Upgrades",
                         "item_count": 3
                     },
                     {
-                        "name": "JOtpK: Boss Battles",
+                        "name": "JotPK: Boss Battles",
                         "item_count": 2
                     },
                     {

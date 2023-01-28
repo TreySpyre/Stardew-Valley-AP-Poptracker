@@ -137,7 +137,7 @@
                 "name": "Smelting",
                 "sections":[
                     {
-                        "name": "Smelt an Copper Bar",
+                        "name": "Smelt a Copper Bar",
                         "item_count": 1
                     }
                 ],

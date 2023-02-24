@@ -54,6 +54,13 @@
                                 "type": "map",
                                 "maps":["Quests"]
                             }
+                        },
+                        {
+                            "title": "Help Wanted!",
+                            "content":{
+                                "type": "map",
+                                "maps":["Help Wanted!"]
+                            }
                         }
                     ]
                 }

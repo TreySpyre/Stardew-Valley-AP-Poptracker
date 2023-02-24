@@ -95,14 +95,14 @@
                             ["$can_mine_copper"]
                     },
                     {
-                        "name": "Floor 45-80",
+                        "name": "Floors 45-80",
                         "clear_as_group": false,
                         "item_count": 8,
                         "access_rules": 
                             ["$can_mine_iron"]
                     },
                     {
-                        "name": "Floor 85-120",
+                        "name": "Floors 85-120",
                         "clear_as_group": false,
                         "item_count": 8,
                         "access_rules": 
@@ -317,7 +317,7 @@
                         "name": "Junimo Kart Levels",
                         "access_rules":
                             ["$has_skull_key"],
-                        "item_count":5
+                        "item_count":8
                     }
                 ],
                 "map_locations":[
@@ -434,6 +434,96 @@
                         "y": 27
                     }
                 ]
+            },
+            {
+                "name": "Traveling Merchant",
+                "clear_as_group":false,
+                "sections":[
+                    {
+                        "name": "Monday",
+                        "access_rules":["$tmmon"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Tuesday",
+                        "access_rules":["$tmtues"],
+                        "item_count":3
+                    },
+                    {
+                        "name": "Wednesday",
+                        "access_rules":["$tmwed"],
+                        "item_count":3
+                    },
+                    {
+                        "name": "Thursday",
+                        "access_rules":["$tmthurs"],
+                        "item_count":3
+                    },
+                    {
+                        "name": "Friday",
+                        "access_rules":["$tmfri"],
+                        "item_count":3
+                    },
+                    {
+                        "name": "Saturday",
+                        "access_rules":["$tmsat"],
+                        "item_count":3
+                    },
+                    {
+                        "name": "Sunday",
+                        "access_rules":["$tmsun"],
+                        "item_count":3
+                    }
+                ],
+                    "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 215,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Fishsanity",
+                "access_rules":["$can_fish"],
+                "visibility_rules":["fsanity"],
+                "clear_as_group":false,
+                "sections":[
+                    {
+                        "name": "Catch 'em All!",
+                        "item_count": 65
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 700,
+                        "y": 505
+                    }
+                ]
+            },
+            {
+                "name": "Museumsanity",
+                "clear_as_group":false,
+                "sections":[
+                    {
+                        "name": "Milestones",
+                        "visibility_rules":["msanity"],
+                        "item_count": 29
+                    },
+                    {
+                        "name": "Donate 'em all!",
+                        "visibility_rules":["msanityplus"],
+                        "item_count": 95
+                    }
+                ],
+                    "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 700,
+                        "y": 330
+                    }
+                ]   
             }
         ]
     }

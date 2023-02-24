@@ -3,12 +3,8 @@
         "name": "Pickaxe",
         "type": "progressive",
         "loop": false,
-        "allow_disabled": false,
+        "allow_disabled": true,
         "stages": [
-            {
-                "img": "images/Pickaxe.png",
-                "codes": "Pick"
-            },
             {
                 "img": "images/Copper_Pickaxe.png",
                 "codes": "Pick,CopperPick"
@@ -31,12 +27,8 @@
         "name": "Axe",
         "type": "progressive",
         "loop": false,
-        "allow_disabled": false,
+        "allow_disabled": true,
         "stages": [
-            {
-                "img": "images/Axe.png",
-                "codes": "Axe"
-            },
             {
                 "img": "images/Copper_Axe.png",
                 "codes": "Axe,CopperAxe"
@@ -59,12 +51,8 @@
         "name": "Hoe",
         "type": "progressive",
         "loop": false,
-        "allow_disabled": false,
+        "allow_disabled": true,
         "stages": [
-            {
-                "img": "images/Hoe.png",
-                "codes": "Hoe"
-            },
             {
                 "img": "images/Copper_Hoe.png",
                 "codes": "Hoe,CopperHoe"
@@ -87,12 +75,8 @@
         "name": "Watering Can",
         "type": "progressive",
         "loop": false,
-        "allow_disabled": false,
+        "allow_disabled": true,
         "stages": [
-            {
-                "img": "images/Watering_Can.png",
-                "codes": "Can"
-            },
             {
                 "img": "images/Copper_Watering_Can.png",
                 "codes": "Can,CopperCan"
@@ -115,12 +99,8 @@
         "name": "Scythe",
         "type": "progressive",
         "loop": false,
-        "allow_disabled": false,
+        "allow_disabled": true,
         "stages": [
-            {
-                "img": "images/Scythe.png",
-                "codes": "scythe"
-            },
             {
                 "img": "images/Golden_Scythe.png",
                 "codes": "scythe,goldscythe"
@@ -195,7 +175,7 @@
         "name": "Spring",
         "type": "toggle",
         "loop": false,
-        "allow_disabled": false,
+        "allow_disabled": true,
         "img": "images/Spring.png",
         "codes": "spring"
     },
@@ -356,12 +336,8 @@
         "name": "Mines Elevator Level",
         "type": "progressive",
         "loop": false,
-        "allow_disabled": false,
+        "allow_disabled": true,
         "stages":[
-            {
-                "img": "images/Elevator/0.png",
-                "codes": "elevator,e0"
-            },
             {
                 "img": "images/Elevator/5.png",
                 "codes": "elevator,e5"
@@ -464,12 +440,8 @@
         "name": "House",
         "type":"progressive",
         "loop":false,
-        "allow_disabled": false,
+        "allow_disabled": true,
         "stages":[
-            {
-                "img": "images/House.png",
-                "codes": "house"
-            },
             {
                 "img": "images/Mini-Fridge.png",
                 "codes": "house,kitchen"
@@ -505,7 +477,7 @@
         "loop": true,
         "stages":[
             {
-                "img": "images/settings/GoalCC.png",
+                "img": "images/settings/GoalCC.jpg",
                 "codes": "goal,CC"
             },
             {
@@ -513,12 +485,16 @@
                 "codes": "goal,eval"
             },
             {
-                "img": "images/settings/GoalJoja.jpg",
-                "codes": "goal,joja"
+                "img": "images/settings/GoalAngler.jpg",
+                "codes": "goal,angler"
             },
             {
                 "img": "images/settings/GoalMines.jpg",
                 "codes": "goal,mine120"
+            },
+            {
+                "img": "images/settings/Collection.jpg",
+                "codes": "goal,collection"
             }
         ]
     },
@@ -580,5 +556,84 @@
         "allow_disabled":true,
         "img": "images/settings/Backpack.png",
         "codes": "setting,pshuffle"
+    },
+    {
+        "name": "Fishsanity",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/settings/Fishsanity.jpg",
+        "codes": "settings,fsanity"
+    },
+    {
+        "name": "Museumsanity",
+        "type": "progressive",
+        "allow_disabled":true,
+        "stages":[
+            {
+                "img": "images/settings/Museum.jpg",
+                "codes": "settings,msanity"
+            },
+            {
+                "img": "images/settings/MuseumPlus.jpg",
+                "codes": "settings,msanityplus"
+            }
+        ]
+    },
+    {
+        "name": "Help Wanted Quests",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 56,
+        "img": "images/settings/HelpWanted.jpg",
+        "codes": "settings,quests"
+    },
+    {
+        "name": "TM Monday",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/Monday.png",
+        "codes": "tm,monday"
+    },
+    {
+        "name": "TM Tuesday",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/Tuesday.png",
+        "codes": "tm,tuesday"
+    },
+    {
+        "name": "TM Wednesday",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/Wednesday.png",
+        "codes": "tm,wednesday"
+    },
+    {
+        "name": "TM Thursday",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/Thursday.png",
+        "codes": "tm,thursday"
+    },
+    {
+        "name": "TM Friday",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/Friday.png",
+        "codes": "tm,friday"
+    },
+    {
+        "name": "TM Saturday",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/Saturday.png",
+        "codes": "tm,saturday"
+    },
+    {
+        "name": "TM Sunday",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/Sunday.png",
+        "codes": "tm,sunday"
     }
 ]

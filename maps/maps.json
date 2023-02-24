@@ -16,5 +16,11 @@
       "location_size": 30,
       "location_border_thickness": 3,
       "img": "images/Quests.png"
+    },
+    {
+      "name": "Help Wanted!",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/HelpWantedUpdate.jpg"
     }
   ]

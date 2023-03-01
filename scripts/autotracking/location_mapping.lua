@@ -499,4 +499,4 @@ LOCATION_MAPPING = {
     [718293] = {"@World/Museumsanity/Donate 'em All!"},
     [718294] = {"@World/Museumsanity/Donate 'em All!"},
     [718295] = {"@World/Museumsanity/Donate 'em All!"}
-    
+}

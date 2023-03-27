@@ -172,38 +172,6 @@
         ]
     },
     {
-        "name": "Spring",
-        "type": "toggle",
-        "loop": false,
-        "allow_disabled": true,
-        "img": "images/Spring.png",
-        "codes": "spring"
-    },
-    {
-        "name": "Summer",
-        "type": "toggle",
-        "loop": false,
-        "allow_disabled": true,
-        "img": "images/Summer.png",
-        "codes": "summer"
-    },
-    {
-        "name": "Fall",
-        "type": "toggle",
-        "loop": false,
-        "allow_disabled": true,
-        "img": "images/Fall.png",
-        "codes": "fall"
-    },
-    {
-        "name": "Winter",
-        "type": "toggle",
-        "loop": false,
-        "allow_disabled": true,
-        "img": "images/Winter.png",
-        "codes": "winter"
-    },
-    {
         "name": "Coop",
         "type": "progressive",
         "loop": false,
@@ -485,38 +453,29 @@
                 "codes": "goal,eval"
             },
             {
-                "img": "images/settings/GoalAngler.jpg",
-                "codes": "goal,angler"
-            },
-            {
                 "img": "images/settings/GoalMines.jpg",
                 "codes": "goal,mine120"
             },
             {
-                "img": "images/settings/Collection.jpg",
-                "codes": "goal,collection"
+                "img": "images/Skull_Key.png",
+                "codes": "goal,SC100"
+            },
+            {
+                "img": "images/settings/GoalAngler.jpg",
+                "codes": "goal,angler"
             }
         ]
     },
     {
         "name": "Elevator Shuffle",
         "type": "progressive",
-        "allow_disabled":false,
-        "loop": true,
-        "stages":[
-            {
-                "img": "images/settings/ElevatorShuffle.png",
-                "codes": "eshuffle,eshuffleoff"
-            },
-            {
-                "img": "images/settings/ElevatorShuffleOn.png",
-                "codes": "eshuffle,eshuffleon"
-            }
-        ]
+        "allow_disabled":true,
+        "img": "images/settings/ElevatorShuffleOn.png",
+        "codes": "settings,eshuffle"
     },
     {
         "name": "Skill Shuffle",
-        "type": "toggle",
+        "type": "progressive",
         "allow_disabled":true,
         "img": "images/settings/Skills.jpg",
         "codes": "settings,sshuffle"
@@ -531,53 +490,42 @@
                 "codes": "settings,ashuffle"
             },
             {
+                "img": "images/settings/Arcade.png",
+                "codes": "settings,ashuffle"
+            },
+            {
                 "img": "images/settings/ArcadePlus.png",
-                "codes": "settings,ashuffle2"
+                "codes": "settings,ashuffle,ashuffle2"
             }
         ]
     },
     {
         "name": "Buildings",
-        "type": "toggle",
+        "type": "progressive",
         "allow_disabled":true,
         "img": "images/settings/Buildings.jpg",
         "codes": "settings,bshuffle"
     },
     {
         "name": "Tools",
-        "type": "toggle",
+        "type": "progressive",
         "allow_disabled":true,
         "img": "images/settings/Tools.jpg",
         "codes": "settings,tshuffle"
     },
     {
         "name": "Backpacks",
-        "type": "toggle",
+        "type": "progressive",
         "allow_disabled":true,
         "img": "images/settings/Backpack.png",
         "codes": "setting,pshuffle"
     },
     {
         "name": "Fishsanity",
-        "type": "toggle",
+        "type": "progressive",
         "allow_disabled": true,
         "img": "images/settings/Fishsanity.jpg",
         "codes": "settings,fsanity"
-    },
-    {
-        "name": "Museumsanity",
-        "type": "progressive",
-        "allow_disabled":true,
-        "stages":[
-            {
-                "img": "images/settings/Museum.jpg",
-                "codes": "settings,msanity"
-            },
-            {
-                "img": "images/settings/MuseumPlus.jpg",
-                "codes": "settings,msanityplus"
-            }
-        ]
     },
     {
         "name": "Help Wanted Quests",

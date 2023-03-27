@@ -61,8 +61,87 @@ function onClear(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     -- manually run snes interface functions after onClear in case we are already ingame
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here
+
+    if SLOT_DATA == nil then
+        return
+    end
+    if slot_data['backpack_progression'] then
+        local obj = Tracker:FindObjectForCode("pshuffle")
+        local stage = slot_data['backpack_progression']
+        if (stage >= 1) then
+            stage = 1
+        end
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['tool_progression'] then
+        local obj = Tracker:FindObjectForCode("tshuffle")
+        local stage = slot_data['tool_progression']
+        if (stage >= 1) then
+            stage = 1
+        end
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['elevator_progression'] then
+        local obj = Tracker:FindObjectForCode("eshuffle")
+        local stage = slot_data['elevator_progression']
+        if (stage >= 1) then
+            stage = 1
+        end
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['skill_progression'] then
+        local obj = Tracker:FindObjectForCode("sshuffle")
+        local stage = slot_data['skill_progression']
+        if (stage >= 1) then
+            stage = 1
+        end
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['fishsanity'] then
+        local obj = Tracker:FindObjectForCode("fsanity")
+        local stage = slot_data['fishsanity']
+        if (stage >= 1) then
+            stage = 1
+        end
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['building_progression'] then
+        local obj = Tracker:FindObjectForCode("bshuffle")
+        local stage = slot_data['building_progression']
+        if (stage >= 1) then
+            stage = 1
+        end
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['goal'] then
+        obj = Tracker:FindObjectForCode("goal")
+        if obj then
+            obj.CurrentStage = slot_data['goal']
+        end
+    end
+    if slot_data['help_wanted_locations'] then
+        obj = Tracker:FindObjectForCode("quests")
+        if obj then
+            obj.AcquiredCount = slot_data['help_wanted_locations']
+        end
+    end
+    if slot_data['arcade_machine_locations'] then
+        obj = Tracker:FindObjectForCode("ashuffle")
+        if obj then
+            obj.CurrentStage = slot_data['arcade_machine_locations']
+        end
     end
 end
 

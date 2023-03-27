@@ -32,9 +32,5 @@ ITEM_MAPPING =
     [717116] = {"wednesday","toggle"},
     [717117] = {"thursday","toggle"},
     [717118] = {"friday","toggle"},
-    [717119] = {"saturday","toggle"},
-    [717124] = {"spring","toggle"},
-    [717125] = {"summer"."toggle"},
-    [717126] = {"fall","toggle"},
-    [717127] = {"winter","toggle"}
+    [717119] = {"saturday","toggle"}
 }

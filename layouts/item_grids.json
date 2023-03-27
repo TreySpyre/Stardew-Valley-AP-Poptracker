@@ -9,7 +9,6 @@
                 "item_margin": "0,3",
                 "rows":[
                     ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"],
-                    ["spring","summer","fall","winter"],
                     ["farming","mining","foraging","fishing","combat"]
                 ]
             },

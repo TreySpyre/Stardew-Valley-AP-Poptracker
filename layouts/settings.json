@@ -10,7 +10,7 @@
                 "rows":
                 [
                     ["goal","eshuffle","sshuffle","ashuffle","fsanity"],
-                    ["msanity","bshuffle","tshuffle","pshuffle","quests"]
+                    ["","bshuffle","tshuffle","pshuffle","quests"]
                 ]
             }
         ]

@@ -80,7 +80,7 @@
             },
             {
                 "name": "Mines Elevators",
-                "visibility_rules":["eshuffleon"],
+                "visibility_rules":["eshuffle"],
                 "sections":[
                     {
                         "name": "Floors 5-20",
@@ -501,29 +501,6 @@
                         "y": 505
                     }
                 ]
-            },
-            {
-                "name": "Museumsanity",
-                "clear_as_group":false,
-                "sections":[
-                    {
-                        "name": "Milestones",
-                        "visibility_rules":["msanity"],
-                        "item_count": 29
-                    },
-                    {
-                        "name": "Donate 'em all!",
-                        "visibility_rules":["msanityplus"],
-                        "item_count": 95
-                    }
-                ],
-                    "map_locations":[
-                    {
-                        "map":"Stardew Valley",
-                        "x": 700,
-                        "y": 330
-                    }
-                ]   
             }
         ]
     }

@@ -80,7 +80,7 @@
             },
             {
                 "name": "Mines Elevators",
-                "visibility_rules":["eshuffle"],
+                "visibility_rules":["eshuffleon"],
                 "sections":[
                     {
                         "name": "Floors 5-20",
@@ -437,41 +437,47 @@
             },
             {
                 "name": "Traveling Merchant",
-                "clear_as_group":false,
                 "sections":[
                     {
                         "name": "Monday",
                         "access_rules":["$tmmon"],
+                        "clear_as_group":false,
                         "item_count": 3
                     },
                     {
                         "name": "Tuesday",
                         "access_rules":["$tmtues"],
+                        "clear_as_group":false,
                         "item_count":3
                     },
                     {
                         "name": "Wednesday",
                         "access_rules":["$tmwed"],
+                        "clear_as_group":false,
                         "item_count":3
                     },
                     {
                         "name": "Thursday",
                         "access_rules":["$tmthurs"],
+                        "clear_as_group":false,
                         "item_count":3
                     },
                     {
                         "name": "Friday",
                         "access_rules":["$tmfri"],
+                        "clear_as_group":false,
                         "item_count":3
                     },
                     {
                         "name": "Saturday",
                         "access_rules":["$tmsat"],
+                        "clear_as_group":false,
                         "item_count":3
                     },
                     {
                         "name": "Sunday",
                         "access_rules":["$tmsun"],
+                        "clear_as_group":false,
                         "item_count":3
                     }
                 ],
@@ -487,10 +493,10 @@
                 "name": "Fishsanity",
                 "access_rules":["$can_fish"],
                 "visibility_rules":["fsanity"],
-                "clear_as_group":false,
                 "sections":[
                     {
                         "name": "Catch 'em All!",
+                        "clear_as_group":false,
                         "item_count": 65
                     }
                 ],
@@ -501,6 +507,30 @@
                         "y": 505
                     }
                 ]
+            },
+            {
+                "name": "Museumsanity",
+                "sections":[
+                    {
+                        "name": "Milestones",
+                        "visibility_rules":["msanity"],
+                        "clear_as_group":false,
+                        "item_count": 29
+                    },
+                    {
+                        "name": "Donate 'em All!",
+                        "visibility_rules":["msanityplus"],
+                        "clear_as_group":false,
+                        "item_count": 95
+                    }
+                ],
+                    "map_locations":[
+                    {
+                        "map":"Stardew Valley",
+                        "x": 700,
+                        "y": 330
+                    }
+                ]   
             }
         ]
     }

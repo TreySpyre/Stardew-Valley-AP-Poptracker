@@ -11,7 +11,7 @@
                         "name": "Spring Foraging Bundle",
                         "item_count": 1,
                         "access_rules": 
-                            []
+                            ["$spring"]
                     },
                     {
                         "name": "Summer Foraging Bundle",
@@ -57,7 +57,8 @@
                 "sections": [
                     {
                         "name": "Spring Crops Bundle",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules":["$spring"]
                     },
                     {
                         "name": "Summer Crops Bundle",

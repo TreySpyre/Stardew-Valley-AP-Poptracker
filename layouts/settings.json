@@ -9,8 +9,10 @@
                 "item_margin": "3,3",
                 "rows":
                 [
-                    ["goal","eshuffle","sshuffle","ashuffle","fsanity"],
-                    ["","bshuffle","tshuffle","pshuffle","quests"]
+                    ["goal"],
+                    ["eshuffle","pshuffle","ashuffle"],
+                    ["bshuffle","tshuffle","sshuffle","quests"],
+                    ["msanity", "friends","fsanity"]
                 ]
             }
         ]

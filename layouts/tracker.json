@@ -28,6 +28,24 @@
                                 "type": "layout",
                                 "key": "settings"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Friendship Levels",
+                            "dock": "left",
+                            "content":{
+                                "type": "layout",
+                                "key": "Friendship"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Seasons and Seeds",
+                            "dock": "left",
+                            "content":{
+                                "type": "layout",
+                                "key": "Seeds"
+                            }
                         }
                     ]
                 },

@@ -8,6 +8,10 @@ function has(item, amount)
     end
 end
 
+function spring()
+    return has("spring")
+end
+
 function summer()
     return has("summer")
 end
